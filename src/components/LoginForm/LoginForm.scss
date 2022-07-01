@@ -1,0 +1,32 @@
+.form {
+  h2 {
+    width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  display: grid;
+  width: 80%;
+  max-width: 600px;
+  margin: 2rem auto;
+  gap: 1rem;
+  form {
+    display: grid;
+    margin: auto;
+    gap: 1rem;
+  }
+  .form-input {
+    display: grid;
+    label {
+      font-weight: 300;
+      font-size: 1.2rem;
+    }
+    input {
+      padding: 0.5rem 1rem;
+    }
+  }
+  .form-input-second {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+  }
+}

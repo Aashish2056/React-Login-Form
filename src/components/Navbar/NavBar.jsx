@@ -1,0 +1,17 @@
+import React from 'react'
+import {NavLink} from "react-router-dom"
+// style
+import "./NavBar.scss"
+const NavBar = () => {
+  return (
+   <nav className='navbar'>
+    <ul>
+        <li><NavLink to="/" className={({isActive})=> isActive && "active"}><p>Login</p></NavLink></li>
+        <li><NavLink to="/register" className={({isActive})=> isActive && "active"}><p>Register</p></NavLink></li>
+    
+    </ul>
+   </nav>
+  )
+}
+
+export default NavBar
