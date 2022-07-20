@@ -15,6 +15,7 @@ const App = () => {
           <Route path="/" element={<Login />} />
           <Route path="/register" element={<RegisterForm />} />
         </Routes>
+        <h2 style={{textAlign:"center"}}>This is footer.</h2>
       </BrowserRouter>
   );
 };
